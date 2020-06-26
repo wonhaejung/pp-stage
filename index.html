@@ -48,7 +48,8 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	.text-center{text-align:center;}
 	.img-size{width: 800px;margin-top: 30px}
 	.margin-bottom{ margin-bottom:30px;}
-	
+	.em{font-size: 3em;}
+
 	.circular-portrait {
      position: absolute;
      width: 500px;
@@ -68,12 +69,14 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
  	.green{color:green;}
  	
 
-	#abs1{position:absolute; left: 450px; top:270px;}
-	#abs2{position:absolute; left: 450px; top:350px;width: 600px}
+	#abs1{position:absolute; left: 280px; top:500px;}
+	#abs2{position:absolute; left: 280px; top:350px;width: 1000px;font-size:3em;}
 	#abs3{position:absolute;right:700px; top:150px; width:500px;}
 	#abs4{position:absolute;left:450px; top:380px; width:500px;}
 	#abs5{position:absolute;left:450px; top:410px; width:500px;}
 	#abs6{position:absolute;left:450px; top:440px; width:500px;}
+	#abs7{position:absolute;left:450px; top:350px; width:500px;}
+	#abs8{position:absolute;left:450px; top:300px; width:500px;}
 
 
 #cc1 {
@@ -87,7 +90,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	height:500px;
   background:url('5.jpg') no-repeat;
   background-size: 800px auto;
-  transition:all 1s}
+  transition:all 0.5s}
 
 
 #cc2 {
@@ -107,7 +110,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	display:inline-block;
 	width:800px;
 	height:500px;
-  background:url('./d/555.jpg') no-repeat;
+  background:url('./d/55.jpg') no-repeat;
   background-size: 800px auto;}
 #cc3:hover{
 	width:800px;
@@ -168,7 +171,9 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	height:500px;
   background:url('11.jpg') no-repeat;
   background-size: 800px auto;
-  transition:all 0.5s}    
+  transition:all 0.5s}  
+
+#ccc{@keyframes ccc{from{opacity:0%}to{opacity:100%}}  
 
 </style>
 <head>
@@ -203,9 +208,9 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	<div class="row ">
 		<div class="col-6-1 h-600 " >
 			<img class="" src="me.png" id="abs3">
-			<h1 id="abs1">
-	*기억에 남는 디자이너를 꿈꾸고 있습니다*</h1>
-			<a id="abs2">이 포트폴리오는 2018년도 부터 2019년도 까지의 작품을 다루고 있습니다. 개인적인 목적으로 만든 작품들이며 이 포트폴리오를 보시는 분들이 제 작품 중 하나라도 기억에 담아가신 다면 저에게 의미가 있을 것 같습니다.감사합니다.</a>
+			<h1 id="abs2">
+	기억에 남는 디자이너를 꿈꾸고 있습니다</h1>
+			<a id="abs1">이 포트폴리오는 2018년도 부터 2019년도 까지의 작품을 다루고 있습니다. 개인적인 목적으로 만든 작품들이며 이 포트폴리오를 보시는 분들이 제 작품 중 하나라도 기억에 담아가신 다면 저에게 의미가 있을 것 같습니다.감사합니다.</a>
 		
 		</div>
 	</div>
@@ -235,28 +240,28 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	<div class="col-4">
 		<h2 class="blue">2019</h2>
 		<a>Helter Skelter</a>
-		<a href="https://music.youtube.com/" id="cc2"></a>
+		<a href="./r/helter.html" id="cc2"></a>
 	</div>
 </section>
 <section>
 	<div class="col-4">
 		<h2 class="blue">2018</h2>
 		<a>Dead Poet Society</a>
-		<a href="https://music.youtube.com/" id="cc3"></a>
+		<a href="./r/dead.html" id="cc3"></a>
 	</div>
 </section>
 <section>
 	<div class="col-4">
 		<h2 class="yellow">2018</h2>
 		<a>Sing Street</a>
-		<a href="https://music.youtube.com/" id="cc4"></a>
+		<a href="./r/sing.html" id="cc4"></a>
 	</div>
 </section>
 <section>
 	<div class="col-4">
 		<h2 class="green">2018</h2>
 		<a>Desert Island</a>
-		<a href="https://music.youtube.com/" id="cc5"></a>
+		<a href="./r/island.html" id="cc5"></a>
 		
 	</div>
 </section>
@@ -264,14 +269,14 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	<div class="col-4">
 		<h2 class="green">2018</h2>
 		<a>Movie Set</a>
-		<a href="https://music.youtube.com/" id="cc6"></a>
+		<a href="./r/joseon.html" id="cc6"></a>
 	</div>
 </section>
 <section>
 	<div class="col-4">
 		<h2 class="red">2019</h2>
 		<a>MAMAMOO Stage</a>
-		<a href="https://music.youtube.com/" id="cc7"></a>
+		<a href="./r/mamamoo.html" id="cc7"></a>
 	</div>
 </section>	
 <footer id="a" class="">	
@@ -279,8 +284,8 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.515843837
 	<div class="row ">
 		<div class="col-6-1 h-600 " >
 			<img class="" src="me2.png" id="abs3">
-			<h2 id="abs1">*Contact*</h2>
-			<li id="abs2">010.9931.4454</li>
+			<h2 id="abs8">*Contact*</h2>
+			<li id="abs7">010.9931.4454</li>
 			<li id="abs4">oksj06023@gmail.com</li>
 			<li id="abs5">ooj1994@naver.com</li>
 			<li id="abs6">https://www.instagram.com/wo_n_j/?hl=ko</li>
